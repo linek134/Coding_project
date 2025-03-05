@@ -16,12 +16,11 @@ The simulation runs in cycles (ca. 100 generations) where species interact, repr
 
 The visualization of the simulation will be text-based. Key aspects such as the availability of food and mating resources, population sizes, and energy levels for each species will be represented using ASCII characters. This will allow users to follow the ecosystem’s health and track the evolution of species as the simulation progresses.
 
-A suggested structure for the project is:
+Important files for the simulation would include:
 ecosystem_simulation/
-│
-├── main.py                   # entry point for the simulation, runs the simulation loop
-├── ecosystem.py              # the ecosystem class with resources and simulation logic
-├── species.py                # the species class specifying each species and their traits
-├── resources.py              # contains the resource class for food and mating resouurces
-├── visualization.py          # functions to generate text-based visualization of the simulation
-└── utils.py                  # additional code (e.g., random number generators)
+main.py                   # entry point for the simulation, runs the simulation loop
+ecosystem.py              # the ecosystem class with resources and simulation logic
+species.py                # the species class specifying each species and their traits
+resources.py              # contains the resource class for food and mating resouurces
+visualization.py          # functions to generate text-based visualization of the simulation
+utils.py                  # additional code (e.g., random number generators)
