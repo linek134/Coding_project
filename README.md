@@ -23,16 +23,13 @@ Files in the simulation include:
 main.py                   # entry point for the simulation, runs the simulation loop
 
 ecosystem.py              # the ecosystem class with simulation logic including the movement of objects and reproduction logics
+
 grid.py                   # initiates the grid, the visual representation of the ecosystem. Populates the grid with the user-given number of each animal class at random locations. Adds food items to 1/3 of the empty cells. (Unfortunately I didnt have time to finish the food consumption logics though).
+
 carnivores.py             # animals able to consume herbivores and thereby increase their energy (unfortunately I didnt have time to finish the predator/prey interactions though)
+
 herbivores.py             # animals intended to consume the food added to the grid, can be consumed by the carnivores (unfortunately I didnt have time to finish the predator/prey interactions though)
 
-eagle.py                 #contains the classes for each species
-lion.py
-fox.py 
-
-zebra.py
-gazelle.py
-rabbit.py
+eagle.py, lion.py, fox.py, zebra.py, gazelle.py, rabbit.py                  #contains the classes for each species
 
 animals.py              # initiates the animals class and defines functions for movement and reproduction
